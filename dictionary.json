@@ -1,0 +1,31 @@
+{
+	"description": {
+		"CREDIT CARD" : "Amazon Card"
+	},
+	"category" : {
+		"Mortgage & Rent" : "Housing",
+		"Restaurants" : "Food",
+		"Credit Card Payment" : "",
+		"Utilities" : "Housing",
+		"Gifts & Donations" : "Misc",
+		"Rental Car & Taxi" : "Transportation",
+		"Fast Food" : "Food",
+		"Interest Income" : "",
+		"Clothing" : "Clothing",
+		"Travel" : "Transportation",
+		"Shopping" : "-",
+		"Pharmacy" : "-",
+		"Tuition" : "-",
+		"Food & Dining" : "Food",
+		"Personal Care" : "Misc",
+		"Entertainment" : "Entertainment",
+		"Misc Expenses" : "-",
+		"Coffee Shops" : "Food",
+		"Uncategorized" : "-",
+		"Groceries" : "Groceries",
+		"Credit Card Payment" : "",
+		"Interest Income" : "",
+		"Travel" : "Housing",
+		"Parking" : "Transportation"
+	}
+}
