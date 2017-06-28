@@ -54,15 +54,14 @@ with open(sys.argv[1], 'rb') as mintData:
 		parseWriteData(row)
 
 wb.save("tester.xlsx")
-workbook = xlsxwriter.Workbook('tester.xlsx')
-worksheet = workbook.add_worksheet()
+# workbook = xlsxwriter.Workbook('tester.xlsx')
+# worksheet = workbook.add_worksheet()
 
-with open(sys.argv[1], 'rb') as mintData:
-	reader = csv.reader(mintData)
-	parseWriteHeaders(reader)
-	rowNum = 2
-	for row in reader:
-		worksheet.write_datetime(rowNum, 0, row[0], "mm/dd/yyyy")
-		rowNum += 1
+# with open(sys.argv[1], 'rb') as mintData:
+# 	reader = csv.reader(mintData)
+# 	parseWriteHeaders(reader)
+# 	for row in reader:
+# 		worksheet.write_datetime(rowNum, 0, row[0], "mm/dd/yyyy")
+# 		rowNum += 1
 
-workbook.close()
+# workbook.close()
